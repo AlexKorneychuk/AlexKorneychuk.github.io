@@ -2,6 +2,7 @@
     margin: 0 auto;
     width: 1366px;
     background-color: #f9f9f9;
+
 }
 
 .inner_wrapper {
@@ -11,12 +12,12 @@
     margin: 0 auto;
     width: 1060px;
     background-color: #fff;
-    height: 130vh;
+    height: 150vh;
 }
 
 .photo1 {
-    margin: 0 0 40px 48px;
-    padding-top: 30px;
+    margin: 0 0 40px 45px;
+    padding-top: 50px;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
 .header {
     background: linear-gradient(to top, #454444, #5d5d5d);
     margin-top: 15px;
-    margin-left: 48px;
+    margin-left: 45px;
     width: 966px;
     height: 40px;
 }
@@ -37,6 +38,7 @@ a {
 }
 
 .link {
+    border: 1px transparent;
     display: inline-block;
     color: #fff;
     font-size: 14px;
