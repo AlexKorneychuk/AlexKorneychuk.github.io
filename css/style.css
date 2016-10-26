@@ -35,17 +35,20 @@ a {
 
 .header ul li {
     display: inline;
+
 }
 
 .link {
-    border: 1px transparent;
+
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     color: #fff;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     line-height: 40px;
-    width: 145px;
-    padding-left: 25px;
+    width: 144px;
+    padding-left: 24px;
 }
 
 .link:hover {
