@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 1366px;
     background-color: #f9f9f9;
-
+    height: 100vh;
 }
 
 .inner_wrapper {
@@ -12,7 +12,6 @@
     margin: 0 auto;
     width: 1060px;
     background-color: #fff;
-    height: 150vh;
 }
 
 .photo1 {
