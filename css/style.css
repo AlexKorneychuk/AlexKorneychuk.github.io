@@ -100,7 +100,7 @@ figcaption {
     float: left;
     border-bottom: 1px solid #000;
     box-shadow: 0 5px 5px 0 #000;
-    z-index: 3;
+    z-index: 2;
 }
 
 ul.menu {
@@ -211,6 +211,7 @@ ul.menu {
     top: 416px;
     left: 285px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .fon {
@@ -223,7 +224,7 @@ ul.menu {
 }
 
 .left_column {
-    box-sizing: border-box;
+    padding-top: 10px;
     width: 210px;
     float: left;
     background: #edeef0;
@@ -232,6 +233,7 @@ ul.menu {
 }
 
 .center_column {
+    padding-top: 10px;
     width: 580px;
     float: left;
     background: #fff;
@@ -241,6 +243,7 @@ ul.menu {
 }
 
 .right_column {
+    padding-top: 10px;
     width: 210px;
     float: left;
     background: #edeef0;
@@ -279,13 +282,13 @@ ul.menu {
 
 .hl_1 {
     position: absolute;
-    top: 595px;
+    bottom: 395px;
     left: 9px;
 }
 
 .hl_2 {
     position: absolute;
-    top: 852px;
+    bottom: 138px;
     left: 9px;
 }
 
@@ -303,13 +306,13 @@ ul.menu {
 
 .hl2_1 {
     position: absolute;
-    top: 738px;
+    bottom: 75px;
     left: 799px;
 }
 
 .hl2_2 {
     position: absolute;
-    top: 906px;
+    bottom: 250px;
     left: 799px;
 }
 
