@@ -1,26 +1,14 @@
+body {
+    background: url(../img/background.jpg) repeat-x;
+}
+
 .wrapper {
-    position: relative;
     margin: 0 auto;
-    width: 1280px;
-    height: 1060px;
-    background: url(../img/background.jpg);
-}
-
-.google_head {
-    position: absolute;
-    top: 0;
-    width: 1280px;
-    display: none;
-    z-index: 1;
-}
-
-.inner_wrapper {
-    position: absolute;
-    top: 38px;
-    left: 150px;
+    margin-top: 38px;
     width: 1015px;
-    height: 991px;
-    background: url("../img/white_main.png");
+    height: 1026px;
+    background: url("../img/white_main.png") no-repeat;
+    position: relative;
 }
 
 .logo {
@@ -35,7 +23,7 @@
     top: 110px;
     font-family: Tahoma, sans-serif;
     font-size: 12px;
-    color: #128aa7
+    color: #128aa7;
 }
 
 .contacts {
@@ -52,12 +40,13 @@
 }
 
 .countries {
+    display: block;
     position: absolute;
     left: 640px;
     top: 110px;
     float: right;
-    display: inline;
-
+    z-index: 2;
+    overflow: hidden;
 }
 
 .countries li {
@@ -65,6 +54,23 @@
     height: 60px;
     width: 54px;
     text-align: center;
+
+}
+
+.countries li a {
+    display: block;
+    height: 60px;
+    width: 54px;
+    padding: 0;
+}
+
+.countries ul li:hover {
+    background: linear-gradient(to top, #f8f9f9, #a0ebf3);
+    border-radius: 5px;
+}
+
+.countries ul li:hover a > figcaption {
+    color: #30b4c7;
 }
 
 figcaption {
@@ -93,14 +99,14 @@ figcaption {
     left: 7px;
 }
 
-.list {
+.menu {
     position: absolute;
     top: 412px;
     left: 8px;
-    float: left;
     border-bottom: 1px solid #000;
     box-shadow: 0 5px 5px 0 #000;
-    z-index: 2;
+    z-index: 100;
+
 }
 
 ul.menu {
@@ -110,16 +116,15 @@ ul.menu {
     list-style: none;
 }
 
-.menu > li {
+ul.menu > li {
     box-sizing: border-box;
     float: left;
     position: relative;
     background: linear-gradient(to bottom, #373737, #303030);
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+
 }
 
-.menu > li > a {
+ul.menu > li > a {
     box-sizing: border-box;
     display: block;
     padding: 2px 0 2px 10px;
@@ -171,6 +176,8 @@ ul.menu {
     position: absolute;
     top: 0;
     left: -9999px;
+    /*z-index: 5;*/
+    width: 150px;
 }
 
 .submenu li a {
@@ -180,7 +187,8 @@ ul.menu {
     width: 150px;
 }
 
-.menu > li:hover ul.submenu {
+ul.menu > li:hover > ul.submenu {
+    position: absolute;
     top: 28px;
     left: 0;
     box-shadow: 0 5px 5px 0 #000;
@@ -188,10 +196,10 @@ ul.menu {
     padding-left: 10px;
     padding-top: 5px;
     background: #303030;
-    z-index: 3;
+    /*z-index: 1;*/
 }
 
-.menu li:hover .submenu li a {
+ul.submenu li a {
     display: block;
     box-sizing: border-box;
     text-decoration: none;
@@ -199,19 +207,22 @@ ul.menu {
     font-size: 14px;
     width: 150px;
     color: white;
+
+}
+
+.triangle {
+    background: url("../img/white_triangles.png") no-repeat center left;
+    width: 5px;
+    height: 5px;
+    padding-left: 5px;
+}
+
+span {
+    margin-left: 5px;
 }
 
 .menu li:hover .submenu li a:hover {
     padding-left: 10px;
-}
-
-.triangle {
-    display: inline;
-    position: absolute;
-    top: 416px;
-    left: 285px;
-    cursor: pointer;
-    z-index: 2;
 }
 
 .fon {
@@ -257,6 +268,7 @@ ul.menu {
     color: #424c43;
     font-weight: bold;
     text-align: center;
+    line-height: normal;
 }
 
 .right_column p,
@@ -282,13 +294,13 @@ ul.menu {
 
 .hl_1 {
     position: absolute;
-    bottom: 395px;
+    bottom: 428px;
     left: 9px;
 }
 
 .hl_2 {
     position: absolute;
-    bottom: 138px;
+    bottom: 172px;
     left: 9px;
 }
 
@@ -306,20 +318,21 @@ ul.menu {
 
 .hl2_1 {
     position: absolute;
-    bottom: 75px;
+    bottom: 110px;
     left: 799px;
 }
 
 .hl2_2 {
     position: absolute;
-    bottom: 250px;
+    bottom: 285px;
     left: 799px;
 }
 
 .sign {
     position: absolute;
-    bottom: 10px;
-    left: 551px;
+    top: 1037px;
+    text-align: center;
+    width: 100%;
 }
 
 .sign p {
