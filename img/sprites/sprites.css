@@ -1,0 +1,127 @@
+.center_form, .right_form, .left_form, .bin, .lc_round, .lc_round1, 
+.lc_round2, .lc_round3, .brands_round, .rc_round1, .rc_round2, .brands, 
+.home_reg, .mail_reg, .man_reg, .sitemap_reg, 
+.tel_reg{
+background: url(sprites.png) no-repeat;
+}
+
+
+.center_form{
+background-position: -440px 0;
+	width: 200px;
+	height: 145px;
+}
+
+
+.right_form{
+background-position: 0 -156px ;
+	width: 276px;
+	height: 144px;
+}
+
+
+.left_form{
+background-position: 0 0;
+	width: 422px;
+	height: 143px;
+}
+
+
+.bin{
+background-position: -281px -151px ;
+	width: 21px;
+	height: 17px;
+}
+
+
+.lc_round{
+background-position: -388px -148px ;
+	width: 22px;
+	height: 21px;
+}
+
+
+.lc_round1{
+background-position: -360px -146px ;
+	width: 23px;
+	height: 23px;
+}
+
+
+.lc_round2{
+background-position: -334px -147px ;
+	width: 22px;
+	height: 23px;
+}
+
+
+.lc_round3{
+background-position: -307px -147px ;
+	width: 22px;
+	height: 23px;
+}
+
+
+.brands_round{
+background-position: -467px -147px ;
+	width: 23px;
+	height: 23px;
+}
+
+
+.rc_round1{
+background-position: -441px -148px ;
+	width: 23px;
+	height: 23px;
+}
+
+
+.rc_round2{
+background-position: -414px -147px ;
+	width: 21px;
+	height: 23px;
+}
+
+
+.brands{
+background-position: 0 -302px ;
+	width: 676px;
+	height: 27px;
+}
+
+
+.home_reg{
+background-position: -575px -148px ;
+	width: 12px;
+	height: 11px;
+}
+
+
+.mail_reg{
+background-position: -560px -149px ;
+	width: 12px;
+	height: 9px;
+}
+
+
+.man_reg{
+background-position: -543px -149px ;
+	width: 14px;
+	height: 18px;
+}
+
+
+.sitemap_reg{
+background-position: -524px -152px ;
+	width: 14px;
+	height: 10px;
+}
+
+
+.tel_reg{
+background-position: -497px -149px ;
+	width: 22px;
+	height: 21px;
+}
+
+
