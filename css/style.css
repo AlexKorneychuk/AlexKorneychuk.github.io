@@ -11,12 +11,12 @@
 
 .nav {
 
-    width: 200px;
+    width: 300px;
 }
 
 .nav > li {
     height: 30px;
-    width: 200px;
+    width: 300px;
 }
 
 a {
