@@ -1,4 +1,8 @@
 .feedback {
+  &__section {
+    max-width: 960px;
+    min-width: 320px;
+  }
   &-wrap {
     height: 271px;
     padding-left: 11.5%;

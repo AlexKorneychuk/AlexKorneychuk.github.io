@@ -1,5 +1,9 @@
 footer {
   text-align: center;
+  &__section {
+    max-width: 960px;
+    min-width: 320px;
+  }
 }
 
 .info {

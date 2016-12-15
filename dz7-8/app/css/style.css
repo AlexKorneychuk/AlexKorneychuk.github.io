@@ -5,6 +5,11 @@
   height: 130px;
 }
 
+.about-us__section {
+    max-width: 960px;
+    min-width: 320px;
+}
+
 .about-us--top {
   margin-top: 70px;
 }
@@ -276,7 +281,6 @@ html {
 }
 
 .header-wrap {
-  min-width: 320px;
   background: url("./../img/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,8 +289,7 @@ html {
   width: 100%;
 }
 
-.main-wrap {
-  min-width: 320px;
+.about-us__wrap {
   position: relative;
   z-index: 100;
   width: 100%;
@@ -304,7 +307,6 @@ html {
 }
 
 .posts-wrap {
-  min-width: 320px;
   padding-top: 30px;
   width: 100%;
   background: #f9f9f9;
@@ -319,7 +321,6 @@ html {
 .footer-wrap {
   -webkit-box-shadow: inset 1px 5px 10px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 1px 5px 10px 0 rgba(0, 0, 0, 0.75);
-  min-width: 320px;
   height: 200px;
   background: url("./../img/footer/footer-background.png") no-repeat;
   width: 100%;
@@ -334,7 +335,7 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
-  .main-wrap {
+    .about-us__wrap {
     height: 342px;
   }
   .division-border {
@@ -344,7 +345,7 @@ html {
 }
 
 @media screen and (min-width: 960px) {
-  .main-wrap {
+    .about-us__wrap {
     height: 340px;
   }
   .division-border {
@@ -355,6 +356,11 @@ html {
     height: 114px;
     clear: both;
   }
+}
+
+.feedback__section {
+    max-width: 960px;
+    min-width: 320px;
 }
 
 .feedback-wrap {
@@ -545,6 +551,11 @@ footer {
   text-align: center;
 }
 
+footer__section {
+    max-width: 960px;
+    min-width: 320px;
+}
+
 .info {
   padding-top: 30px;
 }
@@ -587,6 +598,11 @@ footer {
 header {
   width: 100%;
   height: 520px;
+}
+
+header__section {
+    max-width: 960px;
+    min-width: 320px;
 }
 
 .page-name {
@@ -646,6 +662,8 @@ header {
 }
 
 .logos {
+    max-width: 960px;
+    min-width: 320px;
   height: 422px;
   background-color: #f9f9f9;
   width: 87.5%;
@@ -1215,6 +1233,11 @@ header {
   display: none;
 }
 
+.news__section {
+    max-width: 960px;
+    min-width: 320px;
+}
+
 .news__pingbuller {
   margin-top: 102px;
   display: none;
@@ -1501,6 +1524,11 @@ header {
   margin-top: 47px;
   margin-left: 6%;
   background-color: #f9f9f9;
+}
+
+.updates__section {
+    max-width: 960px;
+    min-width: 320px;
 }
 
 .updates__name {

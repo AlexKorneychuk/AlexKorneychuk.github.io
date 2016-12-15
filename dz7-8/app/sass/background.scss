@@ -7,7 +7,6 @@ html {
 }
 
 .header-wrap {
-  min-width: 320px;
   background: url("./../img/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,8 +15,7 @@ html {
   width: 100%;
 }
 
-.main-wrap {
-  min-width: 320px;
+.about-us__wrap {
   position: relative;
   z-index: 100;
   width: 100%;
@@ -33,7 +31,7 @@ html {
 }
 
 .posts-wrap {
-  min-width: 320px;
+  //min-width: 320px;
   padding-top: 30px;
   width: 100%;
   background: #f9f9f9;
@@ -49,7 +47,7 @@ html {
   -webkit-box-shadow: inset 1px 5px 10px 0 rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 1px 5px 10px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 1px 5px 10px 0 rgba(0, 0, 0, 0.75);
-  min-width: 320px;
+  //min-width: 320px;
   height: 200px;
   background: url("./../img/footer/footer-background.png") no-repeat;
   width: 100%;
@@ -64,7 +62,7 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
-  .main-wrap {
+  .about-us__wrap {
     height: 342px;
   }
   .division-border {
@@ -74,7 +72,7 @@ html {
 }
 
 @media screen and (min-width: 960px) {
-  .main-wrap {
+  .about-us__wrap {
     height: 340px;
   }
   .division-border {

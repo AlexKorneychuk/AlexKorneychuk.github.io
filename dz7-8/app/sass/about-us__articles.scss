@@ -3,6 +3,10 @@
   width: 100%;
   min-width: 320px;
   height: 130px;
+  &__section {
+    max-width: 960px;
+    min-width: 320px;
+  }
   &--top {
     margin-top: 70px;
   }

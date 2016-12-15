@@ -3,6 +3,10 @@
   width: 100%;
   background-color: #ececec;
   display: none;
+  &__section {
+    max-width: 960px;
+    min-width: 320px;
+  }
   &__pingbuller {
     margin-top: 102px;
     display: none;
