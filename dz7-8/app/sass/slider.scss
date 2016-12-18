@@ -6,6 +6,10 @@
   font-family: league_gothic, Arial, sans-serif;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   font-weight: 400;
+  &__wrap {
+    min-width: 320px;
+    //max-width: 960px;
+  }
   &__name {
     margin-left: 20%;
     font-size: 2.25rem;
@@ -161,14 +165,17 @@
 
 @media screen and (min-width: 960px) {
   .slider {
-    clear: both;
-    height: 400px;
-    background: rgba(0, 0, 0, .2);
-    width: 100%;
+    max-width: 960px;
     position: relative;
     z-index: 1;
-    padding-top: 74px;
     margin-top: 0;
+    &__wrap {
+      clear: both;
+      background: rgba(0, 0, 0, .2);
+      width: 100%;
+      padding-top: 74px;
+      height: 400px;
+    }
     &__name {
       margin-top: 5px;
       margin-left: 0;
@@ -204,8 +211,8 @@
     display: block;
     background: url("./../img/header/iphone__hq.png") no-repeat;
     position: absolute;
-    top: -17px;
-    right: 7%;
+    top: -95px;
+    left: 617px;
     width: 274px;
     height: 434px;
   }

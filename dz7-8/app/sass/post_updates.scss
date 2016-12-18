@@ -5,7 +5,6 @@
   margin-left: 6%;
   background-color: #f9f9f9;
   &__section {
-    max-width: 960px;
     min-width: 320px;
   }
 
@@ -70,9 +69,10 @@
     }
     &--960 {
       display: none;
+      margin-left: 345px;
       margin-top: 5px;
-      margin-right: 3%;
-      float: right;
+      margin-right: 0;
+      float: left;
 
       & > a {
         text-transform: uppercase;
@@ -202,7 +202,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .updates {
-    margin-top: 91px;
+    margin-top: 48px;
     float: left;
     width: 46%;
     margin-left: 13%;
@@ -246,18 +246,18 @@
 
 @media screen and (min-width: 960px) {
   .updates {
-    margin-top: 90px;
+    margin-top: 92px;
     float: left;
     width: 46%;
-    margin-left: 3.5%;
+    margin-left: 34px;
     margin-bottom: 87px;
     &__post {
-      margin-left: 15%;
+      margin-left: 66px;
       width: 84%;
     }
     &__date {
       padding-bottom: 17px;
-      margin-left: 15%;
+      margin-left: 66px;
       width: 84%;
     }
     &__more {

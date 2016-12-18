@@ -359,6 +359,7 @@ html {
 }
 
 .feedback__section {
+    position: relative;
     max-width: 960px;
     min-width: 320px;
 }
@@ -548,6 +549,8 @@ html {
 }
 
 footer {
+    max-width: 960px;
+    min-width: 320px;
   text-align: center;
 }
 
@@ -606,6 +609,7 @@ header__section {
 }
 
 .page-name {
+    width: auto;
   padding-top: 70px;
   letter-spacing: -0.03rem;
   padding-bottom: 0;
@@ -647,7 +651,12 @@ header__section {
   header {
     height: 850px;
   }
+
+    .header__section {
+        max-width: 960px;
+    }
   .page-name {
+      position: relative;
     float: left;
     display: block;
     width: 17%;
@@ -1133,7 +1142,7 @@ header__section {
     width: 100%;
     position: absolute;
     top: 66px;
-    left: 34.2%;
+      left: 330px;
     margin-top: 0;
     margin-left: 0;
     text-align: left;
@@ -1152,7 +1161,7 @@ header__section {
   .menu {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    width: 100%;
+      width: 84%;
     display: block;
     text-align: left;
     border: none;
@@ -1171,7 +1180,7 @@ header__section {
   }
   .menu__link {
     border-bottom: none;
-    margin-right: 5%;
+      margin-right: 48px;
     display: inline-block;
     padding-top: 0;
     -webkit-box-sizing: border-box;
@@ -1203,7 +1212,7 @@ header__section {
     border-bottom: 2px solid #edbfff !important;
   }
   .menu-footer {
-    width: 80%;
+      width: auto;
     float: left;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1218,7 +1227,7 @@ header__section {
   .menu-footer .menu__link {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding-right: 4.3%;
+      padding-right: 35px;
   }
   .menu-footer .menu__link:hover {
     border-bottom: none !important;
@@ -1527,7 +1536,6 @@ header__section {
 }
 
 .updates__section {
-    max-width: 960px;
     min-width: 320px;
 }
 
@@ -1601,9 +1609,10 @@ header__section {
 
 .updates__more--960 {
   display: none;
+    margin-left: 345px;
   margin-top: 5px;
-  margin-right: 3%;
-  float: right;
+    margin-right: 0;
+    float: left;
 }
 
 .updates__more--960 > a {
@@ -1736,7 +1745,7 @@ header__section {
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .updates {
-    margin-top: 91px;
+      margin-top: 48px;
     float: left;
     width: 46%;
     margin-left: 13%;
@@ -1778,19 +1787,19 @@ header__section {
 
 @media screen and (min-width: 960px) {
   .updates {
-    margin-top: 90px;
+      margin-top: 92px;
     float: left;
     width: 46%;
-    margin-left: 3.5%;
+      margin-left: 34px;
     margin-bottom: 87px;
   }
   .updates__post {
-    margin-left: 15%;
+      margin-left: 66px;
     width: 84%;
   }
   .updates__date {
     padding-bottom: 17px;
-    margin-left: 15%;
+      margin-left: 66px;
     width: 84%;
   }
   .updates__more {
@@ -1932,15 +1941,19 @@ header__section {
 
 @media screen and (min-width: 960px) {
   .slider__radio {
+      max-width: 960px;
     margin-top: 94px;
-    margin-left: 0;
-    text-align: right;
-    margin-right: 17%;
+      margin-left: 713px;
+      text-align: left;
+      margin-right: 0;
   }
   .slider__radio--feedback {
+      position: absolute;
     text-align: left;
-    margin-top: 23px;
-    margin-left: 41%;
+      top: 356px;
+      left: 196px;
+      margin-left: 0;
+      margin-top: 0;
   }
 }
 
@@ -1952,6 +1965,10 @@ header__section {
   font-family: league_gothic, Arial, sans-serif;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   font-weight: 400;
+}
+
+.slider__wrap {
+    min-width: 320px;
 }
 
 .slider__name {
@@ -2113,14 +2130,18 @@ header__section {
 
 @media screen and (min-width: 960px) {
   .slider {
+      max-width: 960px;
+      position: relative;
+      z-index: 1;
+      margin-top: 0;
+  }
+
+    .slider__wrap {
     clear: both;
-    height: 400px;
     background: rgba(0, 0, 0, 0.2);
     width: 100%;
-    position: relative;
-    z-index: 1;
     padding-top: 74px;
-    margin-top: 0;
+        height: 400px;
   }
   .slider__name {
     margin-top: 5px;
@@ -2156,8 +2177,8 @@ header__section {
     display: block;
     background: url("./../img/header/iphone__hq.png") no-repeat;
     position: absolute;
-    top: -17px;
-    right: 7%;
+      top: -95px;
+      left: 617px;
     width: 274px;
     height: 434px;
   }

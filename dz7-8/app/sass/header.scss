@@ -9,6 +9,7 @@ header {
 }
 
 .page-name {
+  width: auto;
   padding-top: 70px;
   letter-spacing: -0.03rem;
   padding-bottom: 0;
@@ -49,7 +50,11 @@ header {
   header {
     height: 850px;
   }
+  .header__section {
+    max-width: 960px;
+  }
   .page-name {
+    position: relative;
     float: left;
     display: block;
     width: 17%;
