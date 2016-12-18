@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48a0cce-eab0-4053-9d77-ae94ecac91f9" name="Default" comment="dz7-8commited by storm">
+    <list default="true" id="d48a0cce-eab0-4053-9d77-ae94ecac91f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/about-us__articles.scss" afterPath="$PROJECT_DIR$/app/sass/about-us__articles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -287,7 +285,7 @@
       <workItem from="1481822341276" duration="10818000" />
       <workItem from="1481925566405" duration="1038000" />
       <workItem from="1481927241927" duration="604000" />
-      <workItem from="1481988186493" duration="17890000" />
+      <workItem from="1481988186493" duration="17937000" />
     </task>
     <task id="LOCAL-00001" summary="dz7-8commited by storm">
       <created>1481833122173</created>
@@ -310,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482095763702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dz7-8commited by storm">
+      <created>1482097013435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482097013435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272407000" />
+    <option name="totallyTimeSpent" value="272454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="590" y="0" width="777" height="728" extended-state="0" />
