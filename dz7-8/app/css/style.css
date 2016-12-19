@@ -1230,8 +1230,10 @@ header__section {
       padding-right: 35px;
   }
   .menu-footer .menu__link:hover {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
     border-bottom: none !important;
-    padding-right: 4.31%;
+      padding-right: 36px;
   }
 }
 

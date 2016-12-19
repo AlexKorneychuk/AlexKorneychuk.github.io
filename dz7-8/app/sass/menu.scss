@@ -294,8 +294,9 @@
       padding-right: 35px;
 
       &:hover {
+        box-sizing: border-box;
         border-bottom: none !important;
-        padding-right: 4.31%;
+        padding-right: 36px;
       }
     }
   }
