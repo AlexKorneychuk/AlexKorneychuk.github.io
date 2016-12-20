@@ -6,8 +6,8 @@
 }
 
 .about-us__section {
-    max-width: 960px;
-    min-width: 320px;
+  max-width: 960px;
+  min-width: 320px;
 }
 
 .about-us--top {
@@ -159,12 +159,12 @@
     margin-top: 77px;
   }
   .about-us--middle {
-    margin-left: 2.4%;
+    margin-left: 2%;
     width: 30%;
     margin-top: 28px;
   }
   .about-us--bottom {
-    margin-left: 3.4%;
+    margin-left: 3%;
     width: 30%;
     margin-top: 30px;
     padding-bottom: 196px;
@@ -205,6 +205,9 @@
     height: 200px;
     display: inline-block;
   }
+  .about-us__section {
+    margin: 0 auto;
+  }
   .about-us--top {
     margin-left: 0;
     width: 30%;
@@ -240,7 +243,7 @@
     margin-left: 80%;
   }
   .about-us--bottom {
-      margin-left: 4%;
+    margin-left: 4%;
     width: 30%;
     margin-top: 30px;
     padding-bottom: 196px;
@@ -278,6 +281,10 @@ a {
 
 html {
   overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
 }
 
 .header-wrap {
@@ -335,7 +342,7 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
-    .about-us__wrap {
+  .about-us__wrap {
     height: 342px;
   }
   .division-border {
@@ -345,7 +352,7 @@ html {
 }
 
 @media screen and (min-width: 960px) {
-    .about-us__wrap {
+  .about-us__wrap {
     height: 340px;
   }
   .division-border {
@@ -359,9 +366,10 @@ html {
 }
 
 .feedback__section {
-    position: relative;
-    max-width: 960px;
-    min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 960px;
+  min-width: 320px;
 }
 
 .feedback-wrap {
@@ -379,7 +387,7 @@ html {
 .feedback__photo {
   display: block;
   float: left;
-  margin-top: 47px;
+  margin-top: 18px;
   margin-left: 6%;
   width: 49px;
   height: 49px;
@@ -435,6 +443,7 @@ html {
     width: 86.625%;
   }
   .feedback__photo {
+    margin-top: 17px;
     margin-left: 4%;
   }
   .feedback__name {
@@ -510,12 +519,15 @@ html {
     width: 50%;
   }
   .feedback-wrap {
-    height: 272px;
+    height: 293px;
     padding-left: 2.7%;
     margin-top: 59px;
     padding-top: 14px;
     margin-left: 6%;
     width: 88.625%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: url("../img/main/blog__space.png");
   }
   .feedback__photo {
     position: absolute;
@@ -549,14 +561,10 @@ html {
 }
 
 footer {
-    max-width: 960px;
-    min-width: 320px;
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
   text-align: center;
-}
-
-footer__section {
-    max-width: 960px;
-    min-width: 320px;
 }
 
 .info {
@@ -586,7 +594,7 @@ footer__section {
   .info {
     float: right;
     padding-top: 18px;
-    margin-right: 2.6%;
+    margin-right: 3.6%;
   }
 }
 
@@ -603,13 +611,15 @@ header {
   height: 520px;
 }
 
-header__section {
-    max-width: 960px;
-    min-width: 320px;
+.header__section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
 }
 
 .page-name {
-    width: auto;
+  width: auto;
   padding-top: 70px;
   letter-spacing: -0.03rem;
   padding-bottom: 0;
@@ -651,12 +661,8 @@ header__section {
   header {
     height: 850px;
   }
-
-    .header__section {
-        max-width: 960px;
-    }
   .page-name {
-      position: relative;
+    position: relative;
     float: left;
     display: block;
     width: 17%;
@@ -671,20 +677,23 @@ header__section {
 }
 
 .logos {
-    max-width: 960px;
-    min-width: 320px;
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
   height: 422px;
   background-color: #f9f9f9;
-  width: 87.5%;
   text-align: center;
-  margin-left: 6.25%;
+}
+
+.logos__wrap {
+  width: 100%;
 }
 
 .logos__img1 {
   display: block;
   float: left;
   margin-top: 52px;
-  margin-left: 15%;
+  margin-left: 19%;
   width: 69px;
   height: 64px;
   background-position: -203px 0;
@@ -693,7 +702,7 @@ header__section {
 
 .logos__img2 {
   margin-top: 52px;
-  margin-right: 15%;
+  margin-right: 19%;
   display: block;
   float: right;
   width: 72px;
@@ -704,7 +713,7 @@ header__section {
 
 .logos__img3 {
   margin-top: 61px;
-  margin-left: 18%;
+  margin-left: 22%;
   clear: left;
   float: left;
   display: block;
@@ -716,7 +725,7 @@ header__section {
 
 .logos__img4 {
   margin-top: 60px;
-  margin-right: 17%;
+  margin-right: 21%;
   clear: right;
   float: right;
   display: block;
@@ -728,7 +737,7 @@ header__section {
 
 .logos__img5 {
   margin-top: 62px;
-  margin-left: 7%;
+  margin-left: 12%;
   clear: left;
   float: left;
   display: block;
@@ -740,7 +749,7 @@ header__section {
 
 .logos__img6 {
   margin-top: 42px;
-  margin-right: 5%;
+  margin-right: 11%;
   clear: right;
   float: right;
   display: block;
@@ -859,8 +868,6 @@ header__section {
     text-align: left;
     display: block;
     height: 120px;
-    width: 100%;
-    margin-left: 0;
   }
   .logos__img1 {
     height: 67px;
@@ -1142,7 +1149,7 @@ header__section {
     width: 100%;
     position: absolute;
     top: 66px;
-      left: 330px;
+    left: 330px;
     margin-top: 0;
     margin-left: 0;
     text-align: left;
@@ -1161,7 +1168,7 @@ header__section {
   .menu {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-      width: 84%;
+    width: 84%;
     display: block;
     text-align: left;
     border: none;
@@ -1180,7 +1187,7 @@ header__section {
   }
   .menu__link {
     border-bottom: none;
-      margin-right: 48px;
+    margin-right: 48px;
     display: inline-block;
     padding-top: 0;
     -webkit-box-sizing: border-box;
@@ -1212,7 +1219,7 @@ header__section {
     border-bottom: 2px solid #edbfff !important;
   }
   .menu-footer {
-      width: auto;
+    width: 570px;
     float: left;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1227,13 +1234,13 @@ header__section {
   .menu-footer .menu__link {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-      padding-right: 35px;
+    padding-right: 35px;
   }
   .menu-footer .menu__link:hover {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-bottom: none !important;
-      padding-right: 36px;
+    padding-right: 36px;
   }
 }
 
@@ -1245,8 +1252,9 @@ header__section {
 }
 
 .news__section {
-    max-width: 960px;
-    min-width: 320px;
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 320px;
 }
 
 .news__pingbuller {
@@ -1483,7 +1491,7 @@ header__section {
   .news__categories--third {
     width: 28%;
     margin-top: 60px;
-    margin-left: 5.8%;
+    margin-left: 5%;
     display: inline-block;
   }
   .news__categories--third-text {
@@ -1538,7 +1546,7 @@ header__section {
 }
 
 .updates__section {
-    min-width: 320px;
+  min-width: 320px;
 }
 
 .updates__name {
@@ -1554,7 +1562,7 @@ header__section {
 
 .updates__post {
   height: 24px;
-  margin-left: 23.5%;
+  margin-left: 21%;
   width: 54.75%;
   overflow: hidden;
 }
@@ -1576,7 +1584,7 @@ header__section {
   height: 22px;
   overflow: hidden;
   padding-bottom: 17px;
-  margin-left: 23.5%;
+  margin-left: 21%;
 }
 
 .updates__date > p {
@@ -1589,8 +1597,8 @@ header__section {
 }
 
 .updates__more {
-  margin-top: -1px;
-  margin-right: 2%;
+  margin-top: 0;
+  margin-right: 14%;
   float: right;
 }
 
@@ -1611,10 +1619,10 @@ header__section {
 
 .updates__more--960 {
   display: none;
-    margin-left: 345px;
+  margin-left: 345px;
   margin-top: 5px;
-    margin-right: 0;
-    float: left;
+  margin-right: 0;
+  float: left;
 }
 
 .updates__more--960 > a {
@@ -1747,9 +1755,9 @@ header__section {
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .updates {
-      margin-top: 48px;
+    margin-top: 91px;
     float: left;
-    width: 46%;
+    width: 43%;
     margin-left: 13%;
     margin-bottom: 88px;
   }
@@ -1764,7 +1772,7 @@ header__section {
   }
   .updates__more {
     margin-top: 0;
-    margin-right: 7%;
+    margin-right: 3%;
   }
   .updates-upper > .updates__img {
     margin-top: 0;
@@ -1789,19 +1797,19 @@ header__section {
 
 @media screen and (min-width: 960px) {
   .updates {
-      margin-top: 92px;
+    margin-top: 90px;
     float: left;
     width: 46%;
-      margin-left: 34px;
+    margin-left: 34px;
     margin-bottom: 87px;
   }
   .updates__post {
-      margin-left: 66px;
+    margin-left: 66px;
     width: 84%;
   }
   .updates__date {
     padding-bottom: 17px;
-      margin-left: 66px;
+    margin-left: 66px;
     width: 84%;
   }
   .updates__more {
@@ -1932,45 +1940,51 @@ header__section {
     margin-top: 36px;
     margin-left: 0;
     text-align: right;
-    margin-right: 18%;
+    margin-right: 19%;
   }
   .slider__radio--feedback {
+    position: absolute;
     text-align: left;
-    margin-top: 23px;
-    margin-left: 50%;
+    top: 356px;
+    left: 157px;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 960px) {
   .slider__radio {
-      max-width: 960px;
+    max-width: 960px;
     margin-top: 94px;
-      margin-left: 713px;
-      text-align: left;
-      margin-right: 0;
+    margin-left: 713px;
+    text-align: left;
+    margin-right: 0;
   }
   .slider__radio--feedback {
-      position: absolute;
+    position: absolute;
     text-align: left;
-      top: 356px;
-      left: 196px;
-      margin-left: 0;
-      margin-top: 0;
+    top: 356px;
+    left: 196px;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
 .slider {
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  margin-top: 182px;
-  font-family: league_gothic, Arial, sans-serif;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-  font-weight: 400;
+  min-width: 320px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .slider__wrap {
-    min-width: 320px;
+  min-width: 320px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: 184px;
+  font-family: league_gothic, Arial, sans-serif;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
 }
 
 .slider__name {
@@ -2050,6 +2064,11 @@ header__section {
   display: none;
 }
 
+.radio__wrap {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .slider {
     height: 246px;
@@ -2058,6 +2077,9 @@ header__section {
     position: relative;
     z-index: 1;
     padding-top: 93px;
+    margin-top: 90px;
+  }
+  .slider__wrap {
     margin-top: 90px;
   }
   .slider__name {
@@ -2096,6 +2118,9 @@ header__section {
     padding-top: 93px;
     margin-top: 65px;
   }
+  .slider__wrap {
+    margin-top: 66px;
+  }
   .slider__name {
     margin-top: 5px;
     margin-left: 5.9%;
@@ -2117,14 +2142,14 @@ header__section {
   }
   .slider__btn-after {
     top: 178px;
-    right: -.5%;
+    right: .5%;
   }
   .iphone {
     display: block;
     background: url("./../img/header/iphone__hq.png") no-repeat;
     position: absolute;
     top: -23px;
-    right: 6%;
+    right: 7%;
     width: 274px;
     height: 434px;
   }
@@ -2132,18 +2157,18 @@ header__section {
 
 @media screen and (min-width: 960px) {
   .slider {
-      max-width: 960px;
-      position: relative;
-      z-index: 1;
-      margin-top: 0;
+    max-width: 960px;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
   }
-
-    .slider__wrap {
+  .slider__wrap {
+    margin-top: 90px;
     clear: both;
     background: rgba(0, 0, 0, 0.2);
     width: 100%;
     padding-top: 74px;
-        height: 400px;
+    height: 400px;
   }
   .slider__name {
     margin-top: 5px;
@@ -2179,8 +2204,8 @@ header__section {
     display: block;
     background: url("./../img/header/iphone__hq.png") no-repeat;
     position: absolute;
-      top: -95px;
-      left: 617px;
+    top: -95px;
+    left: 617px;
     width: 274px;
     height: 434px;
   }

@@ -1,10 +1,10 @@
 footer {
+  margin: 0 auto;
   max-width: 960px;
   min-width: 320px;
   text-align: center;
   &__section {
-    max-width: 960px;
-    min-width: 320px;
+
   }
 }
 
@@ -34,7 +34,7 @@ footer {
   .info {
     float: right;
     padding-top: 18px;
-    margin-right: 2.6%;
+    margin-right: 3.6%;
   }
 }
 

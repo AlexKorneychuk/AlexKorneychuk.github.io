@@ -151,12 +151,12 @@
     }
     &--middle {
 
-      margin-left: 2.4%;
+      margin-left: 2%;
       width: 30%;
       margin-top: 28px;
     }
     &--bottom {
-      margin-left: 3.4%;
+      margin-left: 3%;
       width: 30%;
       margin-top: 30px;
       padding-bottom: 196px;
@@ -196,6 +196,9 @@
     box-sizing: border-box;
     height: 200px;
     display: inline-block;
+    &__section {
+      margin: 0 auto;
+    }
     &--top {
       margin-left: 0;
       width: 30%;
