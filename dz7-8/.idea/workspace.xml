@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48a0cce-eab0-4053-9d77-ae94ecac91f9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../alex.gitignore" afterPath="$PROJECT_DIR$/../alex.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/about-us__articles.scss" afterPath="$PROJECT_DIR$/app/sass/about-us__articles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/background.scss" afterPath="$PROJECT_DIR$/app/sass/background.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/feedback.scss" afterPath="$PROJECT_DIR$/app/sass/feedback.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/footer.scss" afterPath="$PROJECT_DIR$/app/sass/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/header.scss" afterPath="$PROJECT_DIR$/app/sass/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/logos.scss" afterPath="$PROJECT_DIR$/app/sass/logos.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/menu.scss" afterPath="$PROJECT_DIR$/app/sass/menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/news.scss" afterPath="$PROJECT_DIR$/app/sass/news.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/post_updates.scss" afterPath="$PROJECT_DIR$/app/sass/post_updates.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/slider-radio.scss" afterPath="$PROJECT_DIR$/app/sass/slider-radio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/slider.scss" afterPath="$PROJECT_DIR$/app/sass/slider.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +29,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="164" column="13" lean-forward="false" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1482269936621" expanded="true" signature="1937:2571" ph="{...}" />
+                <marker date="1482269936621" expanded="true" signature="1949:2380" ph="{...}" />
+                <marker date="1482269936621" expanded="true" signature="2633:3437" ph="{...}" />
+                <marker date="1482269936621" expanded="true" signature="2645:3242" ph="{...}" />
+                <marker date="1482269936621" expanded="true" signature="3253:3435" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +43,8 @@
       <file leaf-file-name="feedback.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/feedback.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="156" column="18" lean-forward="false" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -130,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="31" />
+              <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -223,7 +217,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="590" />
+    <option name="x" value="537" />
     <option name="width" value="777" />
     <option name="height" value="728" />
   </component>
@@ -356,7 +350,7 @@
       <workItem from="1481925566405" duration="1038000" />
       <workItem from="1481927241927" duration="604000" />
       <workItem from="1481988186493" duration="20626000" />
-      <workItem from="1482252161571" duration="11502000" />
+      <workItem from="1482252161571" duration="12410000" />
     </task>
     <task id="LOCAL-00001" summary="dz7-8commited by storm">
       <created>1481833122173</created>
@@ -407,14 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1482146604715</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dz7-8commited by storm">
+      <created>1482270137153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1482270137153</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286645000" />
+    <option name="totallyTimeSpent" value="287553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="590" y="0" width="777" height="728" extended-state="0" />
+    <frame x="537" y="0" width="777" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22733423" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
@@ -702,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="31" />
+          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -719,7 +720,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="164" column="13" lean-forward="false" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1482269936621" expanded="true" signature="1937:2571" ph="{...}" />
+            <marker date="1482269936621" expanded="true" signature="1949:2380" ph="{...}" />
+            <marker date="1482269936621" expanded="true" signature="2633:3437" ph="{...}" />
+            <marker date="1482269936621" expanded="true" signature="2645:3242" ph="{...}" />
+            <marker date="1482269936621" expanded="true" signature="3253:3435" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -765,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/feedback.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="156" column="18" lean-forward="false" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
+        <state relative-caret-position="219">
+          <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
           <folding />
         </state>
       </provider>
