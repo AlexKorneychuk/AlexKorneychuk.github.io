@@ -8,7 +8,7 @@ var seconds = 0;
 var milliseconds = 0;
 var currentDate;
 var timerSpot;
-
+var delta;
 
 function showPause() {
     startBtn.style.display = 'none';
@@ -36,6 +36,9 @@ function startWatch() {
     if (!flag) {
         initialDate = new Date().getTime();
 
+    } else {
+        initialDate = new Date().getTime();
+        initialDate = initialDate - delta;
     }
 }
 
@@ -48,7 +51,7 @@ function timerToHTML() {
 function startTimer() {
     currentDate = new Date();
     var date = new Date(currentDate - initialDate);
-
+    delta = date;
     minutes = date.getMinutes();
     seconds = date.getSeconds();
     milliseconds = date.getMilliseconds();
@@ -93,6 +96,4 @@ pauseBtn.addEventListener('click', function () {
     pauseTimer();
 });
 resetBtn.addEventListener('click', resetTimer);
-// каким-то непонятным образом при возобновлении после паузы резюмит с каким-то количеством секунд задержки
-//как такое можно починить, не понимаю? кто в гугл отсылает, кто пишет хз, но никто толком тоже сказать не может
-//может поможете? что именно куда писать? понимаю что проблема со временем. но как починить??
+
