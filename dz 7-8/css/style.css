@@ -1,0 +1,132 @@
+.wrapper--4tabs {
+    width: 610px;
+    float: left;
+}
+
+.wrapper--4forms {
+    margin-top: 40px;
+    width: 650px;
+    float: right;
+}
+
+body {
+    margin: 30px;
+    font: 13px/1.5 Tahoma, Arial;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 30px;
+}
+
+.tabs {
+    width: 600px;
+    background: #EFEFEF;
+    margin: 0 0 30px;
+}
+
+.tabs__caption {
+    height: 40px;
+    line-height: 36px;
+    list-style: none;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+}
+
+.tabs__caption li {
+    float: left;
+    display: inline;
+    margin: 0 1px -1px 0;
+    padding: 0 13px 1px;
+    color: #777;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #E4E4E4;
+    border-bottom: 1px solid #F9F9F9;
+    border-radius: 3px;
+    position: relative;
+}
+
+.tabs__caption li:hover {
+    color: #6596EB;
+    padding: 0 13px 1px 13px;
+    background: #FFF;
+    border: 1px solid #6596EB;
+
+}
+
+.tabs__caption .active {
+    transition: 500ms, ease;
+    color: #fff;
+    background: #6596EB;
+    padding: 0 13px 2px;
+    border: 1px solid #D4D4D4;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.tabs__content {
+    display: none;
+    border: 1px solid #D4D4D4;
+    border-width: 0 1px 1px;
+    background: #fff;
+    padding: 0 12px;
+}
+
+.tabs__content.active {
+
+    display: block;
+}
+
+.authorization {
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.field {
+    padding: 10px;
+}
+
+.name {
+    padding-right: 43px;
+}
+
+.address {
+    padding-right: 30px;
+}
+
+.btn__help {
+    margin-top: 40px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #4c5cff;
+    color: #F9F9F9;
+}
+
+.btn__submit {
+    margin-top: 40px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #4c5cff;
+    color: #F9F9F9;
+}
+
+.tip {
+    width: auto;
+    padding-left: 5px;
+    display: none;
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+    border-radius: 5px;
+}
