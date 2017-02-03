@@ -871,18 +871,12 @@ form {
 }
 
 .niceCheck input {
-    margin-left: -100px;
-}
-
-div {
-    margin-bottom: 10px;
+    margin-left: -9000px; /* можно задать побольше чтобы наверняка скрыть поле */
 }
 
 .niceCheckDisabled {
     background-image: url(./../img/checkbox-disabled.png);
 }
-
--->
 
 /*css-------------------------------------------*/
 
