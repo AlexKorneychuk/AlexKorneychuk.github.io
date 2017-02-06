@@ -1,0 +1,69 @@
+.outer-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper__profile {
+    text-align: center;
+    width: 1024px;
+    height: 1024px;
+    margin: 150px auto 0 auto;
+    background-image: url(./../img/pattern.jpg);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.info-wrapper {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+}
+
+.profile-name {
+    font-weight: 600;
+    font-size: 2em;
+    width: 100%;
+    padding-top: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+.profile-photo {
+    margin: 30px auto 30px auto;
+}
+
+.profile-work {
+    font-size: 14pt;
+    font-family: Arial, serif;
+    color: #1c1c1e;
+    padding-bottom: 20px;
+}
+
+.border {
+    margin-top: 30px;
+    border-top: 1px solid #d8d6d7;
+    padding-bottom: 30px;
+}
+
+.profile-topic {
+    font-weight: bold;
+    font-family: Myriad Pro, Arial, serif;
+    color: black;
+    font-size: 14pt;
+    padding-bottom: 30px;
+}
+
+.info {
+    line-height: 18px;
+    font-weight: 100;
+    margin-left: 45px;
+    font-family: Myriad Pro, Arial, serif;
+    color: #1c1c1e;
+    font-size: 12pt;
+}
+
+.refs {
+    margin-left: 45px;
+    font-style: italic;
+}
