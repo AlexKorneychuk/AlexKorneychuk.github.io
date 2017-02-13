@@ -4,3 +4,5 @@ $ cat .gitignore
 *.log
 node_modules/*
 .idea/*
+/node_modules/
+/.idea/
