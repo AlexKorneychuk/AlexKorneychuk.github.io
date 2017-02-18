@@ -67,15 +67,16 @@ $(function () {
             return el.correctAnswer - 1 + i * 3;
 
         });
-        console.log(indx);
+        console.log('indx', indx);
         $("input").each(function (i) {
             if (~indx.indexOf(i) && !this.checked || !~indx.indexOf(i) && this.checked) $result = false
-            console.log('this.checked', this.checked);
-            console.log('~indx.indexOf(i)', ~indx.indexOf(i));
         });
-    
 
-        if ($result) $(".results").html("Все правильно");
+
+        if ($result){
+            $(".results").html("Все правильно");
+            $("input").prop("checked", false)
+        }
         else {
             $(".results").html("Где-то допущена ошибка");
             $("input").prop("checked", false)
