@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ubuntu_condensed';
+    src: url('../fonts/ubuntu_condensed/ubuntucondensed-regular-webfont.eot');
+    src: url('../fonts/ubuntu_condensed/ubuntucondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ubuntu_condensed/ubuntucondensed-regular-webfont.woff2') format('woff2'),
+    url('../fonts/ubuntu_condensed/ubuntucondensed-regular-webfont.woff') format('woff'),
+    url('../fonts/ubuntu_condensed/ubuntucondensed-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_light';
+    src: url('../fonts/ubuntu_light/ubuntu-light-webfont.eot');
+    src: url('../fonts/ubuntu_light/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ubuntu_light/ubuntu-light-webfont.woff2') format('woff2'),
+    url('../fonts/ubuntu_light/ubuntu-light-webfont.woff') format('woff'),
+    url('../fonts/ubuntu_light/ubuntu-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_medium';
+    src: url('../fonts/ubuntu_medium/ubuntu-medium-webfont.eot');
+    src: url('../fonts/ubuntu_medium/ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ubuntu_medium/ubuntu-medium-webfont.woff2') format('woff2'),
+    url('../fonts/ubuntu_medium/ubuntu-medium-webfont.woff') format('woff'),
+    url('../fonts/ubuntu_medium/ubuntu-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

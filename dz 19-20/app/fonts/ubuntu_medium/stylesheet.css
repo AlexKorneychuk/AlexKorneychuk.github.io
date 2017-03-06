@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'ubuntu_medium';
+    src: url('ubuntu-medium-webfont.eot');
+    src: url('ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-medium-webfont.woff2') format('woff2'),
+         url('ubuntu-medium-webfont.woff') format('woff'),
+         url('ubuntu-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
