@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset_css.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+
+    <script src="js/script.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div class="test__container">
+    <h1 class="test__header">Тест по программированию</h1>
+    <div class="questions__block">
+        <script type="text/html" id="test">
+
+            <% for (var i = 0; i < data.length; i++) { %>
+
+            <h2 class="question__header"> <%= data[i].question %> </h2>
+
+            <input type="checkbox"> <%= data[i].answers[0] %> <br>
+            <input type="checkbox"> <%= data[i].answers[1] %> <br>
+            <input type="checkbox"> <%= data[i].answers[2] %> <br>
+
+            <% }; %>
+
+        </script>
+    </div>
+
+
+    <a href="#" class="test__button">Оценить мой результат</a>
+
+
+</div>
+
+
+</body>
+</html>
