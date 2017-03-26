@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset_css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/7de06b355e.js"></script>
+    <script src="js/jquery.js"></script>
+    <script data-main="js/app" src="js/require.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<script type="text/template" id="wrapper-template">
+    <div class="wrapper">
+        <div class="heading"><h2>ToDo List:</h2></div>
+        <ul class="item-list"></ul>
+        <div class="controlls">
+            <input type="text" class="item-value" placeholder="Your Task">
+            <button class="item-add">Add new task</button>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="list-template">
+    <% for (var i = 0; i < data.length; i++) { %>
+    <li>
+        <%= data[i] %>
+        <span data-value="<%= data[i] %>" class="item-delete"><i class="fa fa-trash sign" aria-hidden="true"></i></span>
+        <span data-value="<%= data[i] %>" class="item-edit"><i class="fa fa-list sign" aria-hidden="true"></i></span>
+    </li>
+    <% }; %>
+</script>
+
+
+</body>
+</html>
